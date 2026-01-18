@@ -333,7 +333,7 @@ export function MapControl({
       <div className="absolute inset-0 map-atmosphere pointer-events-none" />
       <div className="absolute inset-0 map-vignette pointer-events-none" />
       <div className="absolute inset-0 map-noise pointer-events-none" />
-      <div className="absolute inset-0 map-scan pointer-events-none" />
+      {/* <div className="absolute inset-0 map-scan pointer-events-none" /> */}
       <div ref={mapRef} className="w-full h-full">
         <ComposableMap
           width={mapWidth}
